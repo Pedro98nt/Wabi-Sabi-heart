@@ -1,0 +1,14 @@
+body {
+    overflow: hidden;
+    background-image: radial-gradient(circle at center, #ECE5CE, #F1D4AF, #E08E79);
+  }
+  body > .canvas_wrapper {
+    width: 100vw;
+    height: 100vh;
+    -webkit-filter: url("#goo");
+    filter: url("#goo");
+  }
+  body > .canvas_wrapper > canvas {
+    width: 100%;
+    height: 100%;
+  }
